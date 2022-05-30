@@ -22,7 +22,7 @@ Tanto a Heurística de Euclidiana quanto a Heurística Manhattan utilizam o cód
  <p align = "center">
    <img src = "imgs/menu.png")></img>
 </p>
-  Cada uma das opções de 1 à 7 irão encaminhar para suas respectivas entradas e exibirão seus resultados - caso queira encerrar, opção 0. Conforme as imagens abaixo:<br><br>
+  Cada uma das opções de 1 à 7, opções estas que irão buscar os arquivos de entrada, e exibirão seus resultados - caso queira encerrar, opção 0. Conforme imagens abaixo:<br><br>
   
   <p align = "center">
    <img src = "imgs/opcao1.PNG")></img>
@@ -97,7 +97,7 @@ Após a construção e análise das duas tabelas, plotou-se os gráficos dos res
 
 ## Conclusão
 <p align = "justify">
-  Após feitas as análises e comparações, pode-se dizer que o algoritmo mais eficiente para resolucão do problema do Labirinto, é algoritmo que utiliza a Distância Euclidiana para encontrar o melhor caminho. Esta conclusão se dá não apenas pelo tempo de execução, mas também pelo número de interações, já que a única vez em que a Heurística Euclidiana não foi superior aos demais algoritmos, foi na execução da entrada 6 - Conforme a análise dos gráficos.   
+  Após feitas as análises e comparações, pode-se dizer que o algoritmo mais eficiente para resolucão do problema do Labirinto, é algoritmo que utiliza a Distância Euclidiana para encontrar o melhor caminho. Esta conclusão se dá não apenas pelo tempo de execução, mas também pelo número de iterações, já que a única vez em que a Heurística Euclidiana não foi superior aos demais algoritmos, foi na execução da entrada 6, na execução da entrada 5 não foi possível concluir o labirinto, pois não havia passagem até o final, informações estas disponíveis nos gráficos.   
 </p>
 
 # Compilação e Execução
