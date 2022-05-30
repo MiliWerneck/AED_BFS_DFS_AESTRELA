@@ -17,8 +17,7 @@ Tanto a Heurística de Euclidiana quanto a Heurística Manhattan utilizam o cód
 ## Análise e Comparações
 
 <p align = "justify"> 
- Para análise, deve ser esclarecido que o tempo de execução de um algoritmo é uma maneira bastante inadequada para fins comparativos. Uma vez que, os resultados dependem do compilador e hardware utilizado. Entretanto, para esta análise, o tempo de execução fez-se importante para comparar como a 
-diferença na implementação pode implicar em um aumento de performace na resolução do problema.<br>
+ Para análise, deve ser esclarecido que o tempo de execução de um algoritmo é uma maneira bastante inadequada para fins comparativos. Uma vez que, os resultados dependem do compilador e hardware utilizado. Entretanto, para esta análise, não será feito o uso de apenas do tempo de execução, mas também do número de interacões para se chegar à saida da matriz.<br>
   Ao compilar e executar o código, aparecerá um Menu: <br> 
  <p align = "center">
    <img src = "imgs/menu.png")></img>
@@ -97,6 +96,9 @@ Após a construção e análise das duas tabelas, foi possível plotar os gráfi
 </p>
 
 ## Conclusão
+<p align = "justify">
+  Depois de todas as análises e comparações, concluí-se que o algoritmo mais eficiente para resolucão do problema do Labirinto, é algoritmo que utiliza o a distância Euclidiana para encontrar o menor caminho. Esta conclusão se dá não apenas pelo tempo de execução, mas também pelo número de interações. Visto que, a única vez em que a Heurística Euclidiana não foi superior aos demais algoritmos, foi na execucão da entrada 6 - fato este que pode ser comprovado apenas com a análise dos gráficos.   
+</p>
 
 # Compilação e Execução
 
