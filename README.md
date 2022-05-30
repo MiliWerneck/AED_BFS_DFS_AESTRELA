@@ -23,7 +23,7 @@ diferença na implementação pode implicar em um aumento de performace na resol
  <p align = "center">
    <img src = "imgs/menu.png")></img>
 </p>
-  Cada uma das opções de 1 à 7 irão encaminhar para suas respectivas entradas e exibirão seus resultados, conforme as imagens abaixo:<br><br>
+  Cada uma das opções de 1 à 7 irão encaminhar para suas respectivas entradas e exibirão seus resultados - caso queira encerrar, opção 0. Conforme as imagens abaixo:<br><br>
   
   <p align = "center">
    <img src = "imgs/opcao1.PNG")></img>
@@ -53,20 +53,57 @@ diferença na implementação pode implicar em um aumento de performace na resol
    <img src = "imgs/opcao7.PNG")></img>
 </p>
 
-E caso queira encerrar a execução, opção 0:<br>
+Para conseguir valores mais adequados para comparação, foi realizado 5 execuções para cada entrada em todos os algoritmos e calculada suas médias. Dessa forma, os dados coletados - medidos pela unidade segundo(s) - foram divididos em duas tabelas, em evidência logo abaixo:
+<h3 align = "center">Valores obtidos</h3>
+<p align = "center">
+   <img src = "imgs/media_tempos.PNG")></img>
+</p>
+
+<h3 align = "center">Comparação das médias</h3>
+<p align = "center">
+   <img src = "imgs/Media_Tempo_Comparativo.PNG")></img>
+</p>
+
+Após a construção e análise das duas tabelas, foi possível plotar os gráficos dos resultados obtidos na execução de cada entrada, em cada um dos algortimos testados. Dessa forma, melhora visualmente a análise comparativa de tempo. Abaixo, os gráficos estão todos nomeados com suas relativas entradas: <br>
+
+ <p align = "center">
+   <img src = "imgs/grafico_entrada1.png")></img>
+</p>
+
+ <p align = "center">
+   <img src = "imgs/grafico_entrada2.png")></img>
+</p>
 
 <p align = "center">
-   <img src = "imgs/opcao0_finalizacao.PNG")></img>
+   <img src = "imgs/grafico_entrada3.png")></img>
+</p>
+
+<p align = "center">
+   <img src = "imgs/grafico_entrada4.png")></img>
+</p>
+
+<p align = "center">
+   <img src = "imgs/grafico_entrada5.png")></img>
+</p>
+
+<p align = "center">
+   <img src = "imgs/grafico_entrada6.png")></img>
+</p>
+
+<p align = "center">
+   <img src = "imgs/grafico_entrada7.png")></img>
 </p>
 
 </p>
+
+## Conclusão
 
 # Compilação e Execução
 
 Makefile realiza o procedimento de compilação e execução.
 
-|Comando| Funcao|
-|----|----|
+|Comando| Função|
+|-----|----|
 |`make clean`|Limpa tudo|
 |`make r`|Executa a compilação utilizando gcc e executa o programa da pasta build após a realização da compilação.|
 
