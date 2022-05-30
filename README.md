@@ -1,4 +1,10 @@
 # Comparativo DFS - BFS - A* (Heurística Euclidiana e  Heurística de Manhattan)
+
+<p align = "right">
+  Gabriel Oliveira Alves <br>
+  Marinêz Werneck Magalhães
+  </p>
+
 ## Introdução
 <p align = "justify"> 
   Na primeira etapa do problema do labirinto, foi feita a implementação dos algoritmos <a href = "https://github.com/Nerd100oculoS/labirinto-BFS-DFS-etapa1"> BFS e DFS</a> para encontrar a saída. Agora, na segunda etapa, foi desenvolvido um algoritmo complementar, derivado do BFS. Chamado de A*, onde foi empregada a Heurística Euclidiana e de Manhattan para encontrar o melhor caminho até a saída do labirinto. Por fim, há uma análise e uma comparação com todos os resultados obtidos na execução.<br> Nesta etapa também foram utilizadas as estruturas básicas dos respectivos repositórios, <a href = "https://github.com/mpiress/dynamic_list">Lista Dinâmica</a>, <a href = "https://github.com/mpiress/dynamic_stack">Pilha Dinâmica</a> e <a href = "https://github.com/mpiress/dynamic_queue">Fila Dinâmica</a> do professor <a href ="https://github.com/mpiress">Michel Pires</a>. Logo abaixo, estão as duas formúlas matemáticas referentes às heurísticas utilizadas.<br>
